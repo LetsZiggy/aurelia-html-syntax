@@ -1,0 +1,81 @@
+<template
+  bindable=""
+  role=""
+  replaceable
+  part=""
+  replace-part="">
+
+  <require
+    from=""
+    as=""
+    content="">
+  </require>
+
+  <router-view
+    name=""
+    layout-view=""
+    layout-view-model=""
+    swap-order="">
+  </router-view>
+
+  <compose
+    view-model=""
+    view=""
+    model.bind="">
+  </compose>
+
+  <input
+    attach-focus
+    model.bind=""
+    matcher.bind=""
+    attach-focus.bind=""/>
+  <select
+    attach-focus
+    model.bind=""
+    matcher.bind=""
+    attach-focus.bind="">
+  </select>
+
+  <let
+    to-binding-context
+    test1-value=""
+    test2-value.bind="">
+  </let>
+
+  <a
+    download=""
+    router-ignore=""
+    data-router-ignore=""
+    href.bind="">
+  </a>
+
+  <div
+    css="width: ${ test }px; height: ${ test }px;"
+
+    ref=""
+    element.ref=""
+    attribute-name.ref=""
+    view-model.ref=""
+    view.ref=""
+    controller.ref=""
+
+    click.trigger=""
+    mouseenter.delegate=""
+    input.capture=""
+
+    repeat.for=""
+    virtual-repeat.for=""
+    infinite-scroll-next=""
+    infinite-scroll-next.call=""
+
+    else
+    if.bind=""
+    show.bind=""
+
+    with.bind=""
+    as-element=""
+    view-spy
+    compile-spy>
+    ${ test }
+  </div>
+</template>

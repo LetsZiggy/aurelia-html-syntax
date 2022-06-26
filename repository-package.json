@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.0.0",
+
+  "packages": [
+    {
+      "name": "Aurelia HTML",
+      "details": "https://github.com/LetsZiggy/aurelia-html-syntax",
+      "issues": "https://github.com/LetsZiggy/aurelia-html-syntax/issues",
+      "readme": "https://raw.githubusercontent.com/LetsZiggy/aurelia-html-syntax/main/README.md",
+      "releases": [
+        {
+          "sublime_text": ">=3000",
+          "tags": true
+        }
+      ]
+    }
+  ]
+}
